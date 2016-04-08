@@ -1,0 +1,11 @@
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
+
+<h1>Sign Up</h1>
+
+<%= render 'form' %>
+
+<p>
+  Have an account? <%= link_to "Log in now", login_path %>.
+</p>
